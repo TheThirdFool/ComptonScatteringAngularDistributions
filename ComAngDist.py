@@ -50,6 +50,8 @@ def Draw():
 	ax.set_rlabel_position(225)  # get radial labels away from plotted line
 	ax.grid(True)
 	ax.set_title("Angular distribution of Compton scatterings", va='bottom')
+	
+	plt.savefig("AngularDist.png", format='PNG', dpi=600)
 	plt.show()
 
 
